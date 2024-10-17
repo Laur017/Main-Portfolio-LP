@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "HackFont";
+    src: url("../public/fonts/HackBold-Pdjd.ttf");
+}
+
+:root{
+    background-color: #06402B;
+    color: #FDFEFE;
+    font-family: 'HackFont';
+}
