@@ -5,7 +5,7 @@ import Right from './components/Right/Right'
 function App() {
 
   return (
-    <div className='flex justify-center items-center h-screen w-screen'>
+    <div className='lg:flex lg:justify-between'>
       <Left />
       <Right /> 
     </div>

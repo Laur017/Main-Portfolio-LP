@@ -6,9 +6,14 @@
     font-family: "HackFont";
     src: url("../public/fonts/HackBold-Pdjd.ttf");
 }
-
 :root{
     background-color: #06402B;
+}
+#root{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
     color: #FDFEFE;
     font-family: 'HackFont';
 }
