@@ -6,6 +6,11 @@
     font-family: "HackFont";
     src: url("../public/fonts/HackBold-Pdjd.ttf");
 }
+
+@font-face {
+    font-family: "HackRegular";
+    src: url("../public/fonts/HackRegular-gX84.ttf");
+}
 :root{
     background-color: #06402B;
 }

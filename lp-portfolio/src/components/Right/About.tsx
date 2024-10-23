@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div>
+    <div className="txt">
       <p>
         My journey into the world of programming began in the 9th grade when I
         first coded in <span className="gold">Pascal</span>. During high school, I honed my skills by
