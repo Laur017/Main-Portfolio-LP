@@ -1,4 +1,5 @@
 import Card from "./Card";
+import CV from '../../../public/files/Popa_Laurențiu_CV.pdf'
 
 const experience:{
   period:string;
@@ -27,9 +28,9 @@ export default function Experience() {
   ))
 
   return (
-    <div>
+    <div className="">
       {Cards}
-      <p className="hover:text-[#fcd34d] cursor-pointer">View Resume ↗</p>
+      <a className="hover:text-[#fcd34d] cursor-pointer lg:px-8" href={CV} download="Popa Laurențiu CV" target="_blank">View Resume ↗</a>
     </div>
   )
 }

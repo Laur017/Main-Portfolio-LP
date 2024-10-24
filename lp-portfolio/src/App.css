@@ -5,3 +5,21 @@
 .txt {
     font-family: "HackRegular";
 }
+
+.skills{
+    display: flex;
+    gap: 1rem;
+    p{
+        color: #fcd34d;
+        background-color: #fcd34d70;
+        padding: 0.25rem 1rem;
+        border-radius: 1rem;
+        font-size: 0.75rem;
+        letter-spacing: 1px;
+    }
+}
+
+.education-card:hover{
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
