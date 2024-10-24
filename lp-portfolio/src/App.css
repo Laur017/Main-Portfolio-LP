@@ -19,7 +19,11 @@
     }
 }
 
-.education-card:hover{
+.education-card:hover, .work-card:hover{
     background-color: rgba(0,0,0,0.1);
     border-radius: 10px;
+}
+
+.work-card:hover{
+    cursor: pointer;
 }
