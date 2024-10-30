@@ -27,3 +27,44 @@
 .work-card:hover{
     cursor: pointer;
 }
+
+.git-img{
+    content: url('../src/assets/icons/github.png');
+}
+
+.git-img:hover{
+    content: url('../src/assets/icons/github-g.png');
+}
+
+.linkedin-img{
+    content: url('../src/assets/icons/linkedin.png');
+}
+
+.linkedin-img:hover{
+    content: url('../src/assets/icons/linkedin-g.png');
+}
+
+.leetcode-img{
+    content: url('../src/assets/icons/leetcode.png');
+}
+
+.leetcode-img:hover{
+    content: url('../src/assets/icons/leetcode-g.png');
+    width: 20rem;
+}
+
+.instagram-img{
+    content: url('../src/assets/icons/instagram.png');
+}
+
+.instagram-img:hover{
+    content: url('../src/assets/icons/instagram-g.png');
+}
+
+.mail-img{
+    content: url('../src/assets/icons/email.png');
+}
+
+.mail-img:hover{
+    content: url('../src/assets/icons/email-g.png');
+}
